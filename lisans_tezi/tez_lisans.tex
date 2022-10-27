@@ -1,0 +1,41 @@
+%-----------------------------------------------------------------------------%
+%                      KAEU XeTeX Tez Şablonu                                 
+%                         Versiyon 0.1                                        
+%-----------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------%
+% Chary Nepesov tarafından hazırlanmıştır.                                    
+% Referans olarak 
+% https://fbe.ahievran.edu.tr/ogrenci/genel/tez-yazim-kilavuzu%
+% kullanılmıştır.                                                             
+% KAEÜ Mühendislik Mimarlık Fakültesi                                         
+% Bilgisayar Mühendisliği Bölümü                                              
+% https://bmb.ahievran.edu.tr/                                                
+%-----------------------------------------------------------------------------%
+
+\documentclass[lisans]{tez_kaeu}
+
+%-----------------------------------------------------------------------------%
+% Tez içeriğinin başlangıcı.                                                  
+%-----------------------------------------------------------------------------%
+\begin{document}
+
+	\input{giris}
+	\input{bolum_01}
+	\input{bolum_02}
+	\input{bolum_03}
+	\input{bolum_04}
+	\input{bolum_05}
+	
+%-----------------------------------------------------------------------------%
+% tez_bib.bib dosyasına bibliyografi bilgilerinizi bibtex formatında girniz.                                                                    
+% Yazınızın içinde referans için \cite kullanınız.                            
+%-----------------------------------------------------------------------------%
+	\bibliographystyle{tez_kaeubib}    % Bibliyografi tasarım dosyası (.bst)
+	\bibliography{tez_bib}                % .bib dosyası 
+	
+	
+	
+\end{document}
+
+
